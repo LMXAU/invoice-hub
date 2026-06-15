@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(claude --version)",
-      "Read(//home/lmx/.claude/**)"
+      "Read(//home/lmx/.claude/**)",
+      "Bash(pnpm list *)",
+      "Bash(pnpm *)"
     ]
   }
 }

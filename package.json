@@ -1,0 +1,20 @@
+{
+  "name": "invoice-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.1",
+  "devDependencies": {
+    "eslint": "catalog:",
+    "prettier": "^3.8.4",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "turbo": "^2.9.18",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}
