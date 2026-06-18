@@ -9,6 +9,11 @@
     "lib": [
       "ESNext"
     ],
+    "paths": {
+			"@/*": ["./src/*"],
+      "@contracts/*": ["../../packages/contracts/src/*"],
+      "@database/*": ["../../packages/database/src/*"],
+		},
     "types": ["vite/client"],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx"
