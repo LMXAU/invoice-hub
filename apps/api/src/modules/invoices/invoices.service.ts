@@ -25,4 +25,8 @@ export class InvoicesService {
       updatedAt: now,
     });
   }
+
+  async listInvoices() {
+    return this.invoiceRepository.list();
+  }
 }
